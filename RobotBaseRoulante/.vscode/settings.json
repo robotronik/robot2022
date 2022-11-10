@@ -1,0 +1,10 @@
+{
+    "C_Cpp.errorSquiggles": "Disabled",
+    "files.associations": {
+        "ISR.C": "cpp",
+        "rouecodeuse.h": "c",
+        "exti.h": "c",
+        "math.h": "c",
+        "moteur.h": "c"
+    }
+}

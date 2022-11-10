@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name 2)(type Legacy)(uri ${KIPRJMOD}/lib/2.lib)(options "")(descr ""))
+  (lib (name mcp2562)(type Legacy)(uri ${KIPRJMOD}/lib/mcp2562.lib)(options "")(descr ""))
+  (lib (name stm32f042k6tx)(type Legacy)(uri ${KIPRJMOD}/lib/stm32f042k6tx.lib)(options "")(descr ""))
+  (lib (name Propulsion_control)(type Legacy)(uri ${KIPRJMOD}/lib/Propulsion_control.lib)(options "")(descr ""))
+)

@@ -1,0 +1,1356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>D:\Cours\Phelma\CDFR\cdfr2018-master\Electronique\moteurs_brushless_elec\PCB\carte_moteurs.sch</source>
+    <date>13/01/2022 14:52:57</date>
+    <tool>Eeschema (5.1.4)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>carte_moteurs.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/motor_part/" tstamps="/596138FA/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>motor_part.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/uC/" tstamps="/59613C4C/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>uC.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/power_part/" tstamps="/59613F6F/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>power_part.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/encodeurs/" tstamps="/5962A1C1/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>encodeurs.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U7">
+      <value>Trou-3</value>
+      <footprint>maxon:Trou-3</footprint>
+      <libsource lib="" part="Trou-3" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A340DE3</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>Trou-3</value>
+      <footprint>maxon:Trou-3</footprint>
+      <libsource lib="" part="Trou-3" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A340F1E</tstamp>
+    </comp>
+    <comp ref="U10">
+      <value>Trou-3</value>
+      <footprint>maxon:Trou-3</footprint>
+      <libsource lib="" part="Trou-3" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A340FE1</tstamp>
+    </comp>
+    <comp ref="U11">
+      <value>Trou-3</value>
+      <footprint>maxon:Trou-3</footprint>
+      <libsource lib="" part="Trou-3" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3410AC</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>L6235D</value>
+      <footprint>Housings_SOIC:SOIC-24W_7.5x15.4mm_Pitch1.27mm</footprint>
+      <libsource lib="" part="L6235D" description=""/>
+      <sheetpath names="/motor_part/" tstamps="/596138FA/"/>
+      <tstamp>59613948</tstamp>
+    </comp>
+    <comp ref="K1">
+      <value>Maxon-200142</value>
+      <footprint>maxon:Molex-52610-1133</footprint>
+      <libsource lib="" part="Maxon-200142" description=""/>
+      <sheetpath names="/motor_part/" tstamps="/596138FA/"/>
+      <tstamp>59614717</tstamp>
+    </comp>
+    <comp ref="Rsense1">
+      <value>0.33R</value>
+      <footprint>Resistors_THT:R_Bare_Metal_Element_L12.4mm_W4.8mm_P11.40mm</footprint>
+      <libsource lib="" part="R" description=""/>
+      <sheetpath names="/motor_part/" tstamps="/596138FA/"/>
+      <tstamp>59614D6A</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1N4148</value>
+      <footprint>Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
+      <libsource lib="" part="D_ALT" description=""/>
+      <sheetpath names="/motor_part/" tstamps="/596138FA/"/>
+      <tstamp>5961553C</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1N4148</value>
+      <footprint>Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
+      <libsource lib="" part="D_ALT" description=""/>
+      <sheetpath names="/motor_part/" tstamps="/596138FA/"/>
+      <tstamp>596155C9</tstamp>
+    </comp>
+    <comp ref="Rp1">
+      <value>100R</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="" part="R" description=""/>
+      <sheetpath names="/motor_part/" tstamps="/596138FA/"/>
+      <tstamp>596155F3</tstamp>
+    </comp>
+    <comp ref="Cp1">
+      <value>10nC</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="" part="C" description=""/>
+      <sheetpath names="/motor_part/" tstamps="/596138FA/"/>
+      <tstamp>5961562C</tstamp>
+    </comp>
+    <comp ref="Cboot1">
+      <value>220nC</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="" part="C" description=""/>
+      <sheetpath names="/motor_part/" tstamps="/596138FA/"/>
+      <tstamp>5961567C</tstamp>
+    </comp>
+    <comp ref="Coff1">
+      <value>1nC</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="" part="C" description=""/>
+      <sheetpath names="/motor_part/" tstamps="/596138FA/"/>
+      <tstamp>59618797</tstamp>
+    </comp>
+    <comp ref="Roff1">
+      <value>33kR</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="" part="R" description=""/>
+      <sheetpath names="/motor_part/" tstamps="/596138FA/"/>
+      <tstamp>59618982</tstamp>
+    </comp>
+    <comp ref="Cpul1">
+      <value>10nC</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="" part="C" description=""/>
+      <sheetpath names="/motor_part/" tstamps="/596138FA/"/>
+      <tstamp>59619FC3</tstamp>
+    </comp>
+    <comp ref="Rpul1">
+      <value>47kR</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="" part="R" description=""/>
+      <sheetpath names="/motor_part/" tstamps="/596138FA/"/>
+      <tstamp>5961A03C</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1.2kR</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="" part="R" description=""/>
+      <sheetpath names="/motor_part/" tstamps="/596138FA/"/>
+      <tstamp>5961BC60</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>220R</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="" part="R" description=""/>
+      <sheetpath names="/motor_part/" tstamps="/596138FA/"/>
+      <tstamp>5961BC99</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10nC</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="" part="C" description=""/>
+      <sheetpath names="/motor_part/" tstamps="/596138FA/"/>
+      <tstamp>5961BF92</tstamp>
+    </comp>
+    <comp ref="Ren1">
+      <value>100kR</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="" part="R" description=""/>
+      <sheetpath names="/motor_part/" tstamps="/596138FA/"/>
+      <tstamp>59624BB3</tstamp>
+    </comp>
+    <comp ref="Cen1">
+      <value>5,6nC</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="" part="C" description=""/>
+      <sheetpath names="/motor_part/" tstamps="/596138FA/"/>
+      <tstamp>59624D3C</tstamp>
+    </comp>
+    <comp ref="Rdd1">
+      <value>1kR</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="" part="R" description=""/>
+      <sheetpath names="/motor_part/" tstamps="/596138FA/"/>
+      <tstamp>5962811E</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>L6235D</value>
+      <footprint>Housings_SOIC:SOIC-24W_7.5x15.4mm_Pitch1.27mm</footprint>
+      <libsource lib="" part="L6235D" description=""/>
+      <sheetpath names="/motor_part/" tstamps="/596138FA/"/>
+      <tstamp>59B492F0</tstamp>
+    </comp>
+    <comp ref="K2">
+      <value>Maxon-200142</value>
+      <footprint>maxon:Molex-52610-1133</footprint>
+      <libsource lib="" part="Maxon-200142" description=""/>
+      <sheetpath names="/motor_part/" tstamps="/596138FA/"/>
+      <tstamp>59B49302</tstamp>
+    </comp>
+    <comp ref="Rsense2">
+      <value>0.33R</value>
+      <footprint>Resistors_THT:R_Bare_Metal_Element_L12.4mm_W4.8mm_P11.40mm</footprint>
+      <libsource lib="" part="R" description=""/>
+      <sheetpath names="/motor_part/" tstamps="/596138FA/"/>
+      <tstamp>59B49337</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>1N4148</value>
+      <footprint>Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
+      <libsource lib="" part="D_ALT" description=""/>
+      <sheetpath names="/motor_part/" tstamps="/596138FA/"/>
+      <tstamp>59B4935D</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>1N4148</value>
+      <footprint>Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
+      <libsource lib="" part="D_ALT" description=""/>
+      <sheetpath names="/motor_part/" tstamps="/596138FA/"/>
+      <tstamp>59B49363</tstamp>
+    </comp>
+    <comp ref="Rp2">
+      <value>100R</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="" part="R" description=""/>
+      <sheetpath names="/motor_part/" tstamps="/596138FA/"/>
+      <tstamp>59B49369</tstamp>
+    </comp>
+    <comp ref="Cp2">
+      <value>10nC</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="" part="C" description=""/>
+      <sheetpath names="/motor_part/" tstamps="/596138FA/"/>
+      <tstamp>59B4936F</tstamp>
+    </comp>
+    <comp ref="Cboot2">
+      <value>220nC</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="" part="C" description=""/>
+      <sheetpath names="/motor_part/" tstamps="/596138FA/"/>
+      <tstamp>59B49375</tstamp>
+    </comp>
+    <comp ref="Coff2">
+      <value>1nC</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="" part="C" description=""/>
+      <sheetpath names="/motor_part/" tstamps="/596138FA/"/>
+      <tstamp>59B4938F</tstamp>
+    </comp>
+    <comp ref="Roff2">
+      <value>33kR</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="" part="R" description=""/>
+      <sheetpath names="/motor_part/" tstamps="/596138FA/"/>
+      <tstamp>59B49395</tstamp>
+    </comp>
+    <comp ref="Cpul2">
+      <value>10nC</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="" part="C" description=""/>
+      <sheetpath names="/motor_part/" tstamps="/596138FA/"/>
+      <tstamp>59B493AC</tstamp>
+    </comp>
+    <comp ref="Rpul2">
+      <value>47kR</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="" part="R" description=""/>
+      <sheetpath names="/motor_part/" tstamps="/596138FA/"/>
+      <tstamp>59B493B2</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1.2kR</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="" part="R" description=""/>
+      <sheetpath names="/motor_part/" tstamps="/596138FA/"/>
+      <tstamp>59B493CF</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>220R</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="" part="R" description=""/>
+      <sheetpath names="/motor_part/" tstamps="/596138FA/"/>
+      <tstamp>59B493D5</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10nC</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="" part="C" description=""/>
+      <sheetpath names="/motor_part/" tstamps="/596138FA/"/>
+      <tstamp>59B493DB</tstamp>
+    </comp>
+    <comp ref="Ren2">
+      <value>100kR</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="" part="R" description=""/>
+      <sheetpath names="/motor_part/" tstamps="/596138FA/"/>
+      <tstamp>59B493F0</tstamp>
+    </comp>
+    <comp ref="Cen2">
+      <value>5,6nC</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="" part="C" description=""/>
+      <sheetpath names="/motor_part/" tstamps="/596138FA/"/>
+      <tstamp>59B493F6</tstamp>
+    </comp>
+    <comp ref="Rdd2">
+      <value>1kR</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="" part="R" description=""/>
+      <sheetpath names="/motor_part/" tstamps="/596138FA/"/>
+      <tstamp>59B4940F</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>stm32f303k8t6</value>
+      <footprint>Housings_QFP:LQFP-32_7x7mm_Pitch0.8mm</footprint>
+      <libsource lib="" part="stm32f303k8t6" description=""/>
+      <sheetpath names="/uC/" tstamps="/59613C4C/"/>
+      <tstamp>59613C78</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100nC</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="" part="C" description=""/>
+      <sheetpath names="/uC/" tstamps="/59613C4C/"/>
+      <tstamp>59615D27</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>swdio</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm</footprint>
+      <libsource lib="" part="CONN_01X04" description=""/>
+      <sheetpath names="/uC/" tstamps="/59613C4C/"/>
+      <tstamp>59615ECD</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>LED_ALT</value>
+      <footprint>Diodes_SMD:D_SMA-SMB_Universal_Handsoldering</footprint>
+      <libsource lib="" part="LED_ALT" description=""/>
+      <sheetpath names="/uC/" tstamps="/59613C4C/"/>
+      <tstamp>596A8942</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>470R</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="" part="R" description=""/>
+      <sheetpath names="/uC/" tstamps="/59613C4C/"/>
+      <tstamp>596A89D5</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>CONN_SERIAL</value>
+      <footprint>Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight</footprint>
+      <libsource lib="" part="CONN_01X02" description=""/>
+      <sheetpath names="/uC/" tstamps="/59613C4C/"/>
+      <tstamp>5974F8CE</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10kR</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="" part="R" description=""/>
+      <sheetpath names="/uC/" tstamps="/59613C4C/"/>
+      <tstamp>5974DF8C</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>Jumper_NC_Dual</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm</footprint>
+      <libsource lib="" part="Jumper_NC_Dual" description=""/>
+      <sheetpath names="/uC/" tstamps="/59613C4C/"/>
+      <tstamp>5974E017</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_I2C</value>
+      <footprint>Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight</footprint>
+      <libsource lib="" part="CONN_01X02" description=""/>
+      <sheetpath names="/uC/" tstamps="/59613C4C/"/>
+      <tstamp>59C14D2B</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>CONN_FREE</value>
+      <footprint>Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight</footprint>
+      <libsource lib="" part="CONN_01X02" description=""/>
+      <sheetpath names="/uC/" tstamps="/59613C4C/"/>
+      <tstamp>59C1439A</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>MCP2562</value>
+      <footprint>Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
+      <libsource lib="" part="MCP2562" description=""/>
+      <sheetpath names="/uC/" tstamps="/59613C4C/"/>
+      <tstamp>59C2F137</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>CONN_CAN</value>
+      <footprint>Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight</footprint>
+      <libsource lib="" part="CONN_01X02" description=""/>
+      <sheetpath names="/uC/" tstamps="/59613C4C/"/>
+      <tstamp>59C2FCB1</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>R</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="" part="R" description=""/>
+      <sheetpath names="/uC/" tstamps="/59613C4C/"/>
+      <tstamp>59C2FCEC</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>B_Plug_5mm</value>
+      <footprint>B plug:B plug 5mm</footprint>
+      <libsource lib="" part="B_Plug_5mm" description=""/>
+      <sheetpath names="/power_part/" tstamps="/59613F6F/"/>
+      <tstamp>5962E6CD</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>Fuse</value>
+      <footprint>Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_SemiClosed_Casing10x25mm</footprint>
+      <libsource lib="" part="Fuse" description=""/>
+      <sheetpath names="/power_part/" tstamps="/59613F6F/"/>
+      <tstamp>5962E74B</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>D_10A</value>
+      <footprint>Diodes_SMD:D_SMA_Handsoldering</footprint>
+      <libsource lib="" part="D_ALT" description=""/>
+      <sheetpath names="/power_part/" tstamps="/59613F6F/"/>
+      <tstamp>5962E7D0</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>LM317_SOT223</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-223-3Lead_TabPin2</footprint>
+      <libsource lib="" part="LM317_SOT223" description=""/>
+      <sheetpath names="/power_part/" tstamps="/59613F6F/"/>
+      <tstamp>5962EDF3</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>LM317_SOT223</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-223-3Lead_TabPin2</footprint>
+      <libsource lib="" part="LM317_SOT223" description=""/>
+      <sheetpath names="/power_part/" tstamps="/59613F6F/"/>
+      <tstamp>5962EF34</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>820R</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="" part="R" description=""/>
+      <sheetpath names="/power_part/" tstamps="/59613F6F/"/>
+      <tstamp>5962F28F</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>270R</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="" part="R" description=""/>
+      <sheetpath names="/power_part/" tstamps="/59613F6F/"/>
+      <tstamp>5962F2E4</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>370R</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="" part="R" description=""/>
+      <sheetpath names="/power_part/" tstamps="/59613F6F/"/>
+      <tstamp>5962F32D</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>220R</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="" part="R" description=""/>
+      <sheetpath names="/power_part/" tstamps="/59613F6F/"/>
+      <tstamp>5962F372</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>2kR</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="" part="R" description=""/>
+      <sheetpath names="/power_part/" tstamps="/59613F6F/"/>
+      <tstamp>59630075</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>470R</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="" part="R" description=""/>
+      <sheetpath names="/power_part/" tstamps="/59613F6F/"/>
+      <tstamp>5963017A</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>470R</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="" part="R" description=""/>
+      <sheetpath names="/power_part/" tstamps="/59613F6F/"/>
+      <tstamp>596302DA</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>LED_5V</value>
+      <footprint>Diodes_SMD:D_SMA-SMB_Universal_Handsoldering</footprint>
+      <libsource lib="" part="LED_ALT" description=""/>
+      <sheetpath names="/power_part/" tstamps="/59613F6F/"/>
+      <tstamp>59630349</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>LED_3.3V</value>
+      <footprint>Diodes_SMD:D_SMA-SMB_Universal_Handsoldering</footprint>
+      <libsource lib="" part="LED_ALT" description=""/>
+      <sheetpath names="/power_part/" tstamps="/59613F6F/"/>
+      <tstamp>59630393</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>LED_VCC</value>
+      <footprint>Diodes_SMD:D_SMA-SMB_Universal_Handsoldering</footprint>
+      <libsource lib="" part="LED_ALT" description=""/>
+      <sheetpath names="/power_part/" tstamps="/59613F6F/"/>
+      <tstamp>59630415</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>10uC</value>
+      <footprint>Capacitors_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
+      <libsource lib="" part="C" description=""/>
+      <sheetpath names="/power_part/" tstamps="/59613F6F/"/>
+      <tstamp>5962615B</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>10uC</value>
+      <footprint>Capacitors_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
+      <libsource lib="" part="C" description=""/>
+      <sheetpath names="/power_part/" tstamps="/59613F6F/"/>
+      <tstamp>5962624A</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100nC</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="" part="C" description=""/>
+      <sheetpath names="/power_part/" tstamps="/59613F6F/"/>
+      <tstamp>596270DD</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100uCP</value>
+      <footprint>Capacitors_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
+      <libsource lib="" part="CP" description=""/>
+      <sheetpath names="/power_part/" tstamps="/59613F6F/"/>
+      <tstamp>59627130</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>FAN</value>
+      <footprint>Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight</footprint>
+      <libsource lib="" part="CONN_01X02" description=""/>
+      <sheetpath names="/power_part/" tstamps="/59613F6F/"/>
+      <tstamp>596A9627</tstamp>
+    </comp>
+    <comp ref="U12">
+      <value>B_Plug_5mm</value>
+      <footprint>B plug:B plug 5mm</footprint>
+      <libsource lib="" part="B_Plug_5mm" description=""/>
+      <sheetpath names="/power_part/" tstamps="/59613F6F/"/>
+      <tstamp>5A34421A</tstamp>
+    </comp>
+    <comp ref="F2">
+      <value>Fuse</value>
+      <footprint>Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_SemiClosed_Casing10x25mm</footprint>
+      <libsource lib="" part="Fuse" description=""/>
+      <sheetpath names="/power_part/" tstamps="/59613F6F/"/>
+      <tstamp>5A3442DC</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>D_10A</value>
+      <footprint>Diodes_SMD:D_SMA_Handsoldering</footprint>
+      <libsource lib="" part="D" description=""/>
+      <sheetpath names="/power_part/" tstamps="/59613F6F/"/>
+      <tstamp>5A344361</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>100nC</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="" part="C" description=""/>
+      <sheetpath names="/power_part/" tstamps="/59613F6F/"/>
+      <tstamp>5A344493</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100uCP</value>
+      <footprint>Capacitors_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
+      <libsource lib="" part="CP" description=""/>
+      <sheetpath names="/power_part/" tstamps="/59613F6F/"/>
+      <tstamp>5A344500</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>2kR</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="" part="R" description=""/>
+      <sheetpath names="/power_part/" tstamps="/59613F6F/"/>
+      <tstamp>5A344571</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>LED_ALT</value>
+      <footprint>Diodes_SMD:D_SMA-SMB_Universal_Handsoldering</footprint>
+      <libsource lib="" part="LED_ALT" description=""/>
+      <sheetpath names="/power_part/" tstamps="/59613F6F/"/>
+      <tstamp>5A34463F</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>encoder_1</value>
+      <footprint>Connectors_Molex:Molex_KK-6410-04_04x2.54mm_Straight</footprint>
+      <libsource lib="" part="CONN_01X04" description=""/>
+      <sheetpath names="/encodeurs/" tstamps="/5962A1C1/"/>
+      <tstamp>59C30399</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>encoder_2</value>
+      <footprint>Connectors_Molex:Molex_KK-6410-04_04x2.54mm_Straight</footprint>
+      <libsource lib="" part="CONN_01X04" description=""/>
+      <sheetpath names="/encodeurs/" tstamps="/5962A1C1/"/>
+      <tstamp>59C303CC</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="B_Plug_5mm">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">B_Plug_5mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="C">
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="CONN_01X02">
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="CONN_01X04">
+      <footprints>
+        <fp>Pin_Header_Straight_1X04</fp>
+        <fp>Pin_Header_Angled_1X04</fp>
+        <fp>Socket_Strip_Straight_1X04</fp>
+        <fp>Socket_Strip_Angled_1X04</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="CP">
+      <footprints>
+        <fp>CP*</fp>
+        <fp>Elko*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="D">
+      <footprints>
+        <fp>Diode_*</fp>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="D_ALT">
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_ALT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="Fuse">
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="Jumper_NC_Dual">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_NC_Dual</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="L6235D">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">L6235D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="H1" type="input"/>
+        <pin num="2" name="DIAG" type="input"/>
+        <pin num="3" name="SENSE_A" type="input"/>
+        <pin num="4" name="RCOFF" type="input"/>
+        <pin num="5" name="OUT_1" type="input"/>
+        <pin num="6" name="GND" type="input"/>
+        <pin num="7" name="GND" type="input"/>
+        <pin num="8" name="TACHO" type="input"/>
+        <pin num="9" name="RCPULSE" type="input"/>
+        <pin num="10" name="SENSE_B" type="input"/>
+        <pin num="11" name="FWD/REV" type="input"/>
+        <pin num="12" name="EN" type="input"/>
+        <pin num="13" name="VREF" type="input"/>
+        <pin num="14" name="BRAKE" type="input"/>
+        <pin num="15" name="VBOOT" type="input"/>
+        <pin num="16" name="OUT_3" type="input"/>
+        <pin num="17" name="VS_B" type="input"/>
+        <pin num="18" name="GND" type="input"/>
+        <pin num="19" name="GND" type="input"/>
+        <pin num="20" name="VS_A" type="input"/>
+        <pin num="21" name="OUT_2" type="input"/>
+        <pin num="22" name="VCP" type="input"/>
+        <pin num="23" name="H2" type="input"/>
+        <pin num="24" name="H3" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LED_ALT">
+      <footprints>
+        <fp>LED*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_ALT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LM317_SOT223">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM317_SOT223</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ADJ" type="input"/>
+        <pin num="2" name="OUT" type="power_out"/>
+        <pin num="3" name="IN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="MCP2562">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP2562</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TXD" type="output"/>
+        <pin num="2" name="VSS" type="passive"/>
+        <pin num="3" name="VDD" type="power_in"/>
+        <pin num="4" name="RXD" type="input"/>
+        <pin num="5" name="VIO" type="power_in"/>
+        <pin num="6" name="CANL" type="BiDi"/>
+        <pin num="7" name="CANH" type="BiDi"/>
+        <pin num="8" name="STBY" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="Maxon-200142">
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">Maxon-200142</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Motor_winding_1" type="power_in"/>
+        <pin num="2" name="Motor_winding_1" type="power_in"/>
+        <pin num="3" name="Motor_winding_2" type="power_in"/>
+        <pin num="4" name="Motor_winding_2" type="power_in"/>
+        <pin num="5" name="Motor_winding_3" type="power_in"/>
+        <pin num="6" name="Motor_winding_3" type="power_in"/>
+        <pin num="7" name="GND" type="passive"/>
+        <pin num="8" name="Hall_sensor_2" type="output"/>
+        <pin num="9" name="Hall_sensor_1" type="output"/>
+        <pin num="10" name="Hall_sensor_3" type="output"/>
+        <pin num="11" name="V_Hall" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="R">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="Trou-3">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Trou-3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="stm32f303k8t6">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">stm32f303k8t6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="PF0" type="passive"/>
+        <pin num="3" name="PF1" type="passive"/>
+        <pin num="4" name="N-RST" type="passive"/>
+        <pin num="5" name="VDDA" type="passive"/>
+        <pin num="6" name="PA0" type="passive"/>
+        <pin num="7" name="PA1" type="passive"/>
+        <pin num="8" name="PA2" type="passive"/>
+        <pin num="9" name="PA3" type="passive"/>
+        <pin num="10" name="PA4" type="passive"/>
+        <pin num="11" name="PA5" type="passive"/>
+        <pin num="12" name="PA6" type="passive"/>
+        <pin num="13" name="PA7" type="passive"/>
+        <pin num="14" name="PB0" type="passive"/>
+        <pin num="15" name="PB1" type="passive"/>
+        <pin num="16" name="VSS" type="passive"/>
+        <pin num="17" name="VDDIO-2" type="passive"/>
+        <pin num="18" name="PA8" type="passive"/>
+        <pin num="19" name="PA9" type="passive"/>
+        <pin num="20" name="PA10" type="passive"/>
+        <pin num="21" name="PA11" type="passive"/>
+        <pin num="22" name="PA12" type="passive"/>
+        <pin num="23" name="PA13" type="passive"/>
+        <pin num="24" name="PA14" type="passive"/>
+        <pin num="25" name="PA15" type="passive"/>
+        <pin num="26" name="PB3" type="passive"/>
+        <pin num="27" name="PB4" type="passive"/>
+        <pin num="28" name="PB5" type="passive"/>
+        <pin num="29" name="PB6" type="passive"/>
+        <pin num="30" name="PB7" type="passive"/>
+        <pin num="31" name="BOOT0/PB8" type="passive"/>
+        <pin num="32" name="VSSA" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets>
+    <net code="1" name="/motor_part/DIAG_1">
+      <node ref="Ren1" pin="1"/>
+      <node ref="Cen1" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U1" pin="12"/>
+      <node ref="U3" pin="15"/>
+    </net>
+    <net code="2" name="/motor_part/EN_2">
+      <node ref="Ren2" pin="2"/>
+      <node ref="U3" pin="28"/>
+    </net>
+    <net code="3" name="/motor_part/DIR_2">
+      <node ref="U2" pin="11"/>
+      <node ref="U3" pin="26"/>
+    </net>
+    <net code="4" name="/motor_part/DIAG_2">
+      <node ref="U2" pin="12"/>
+      <node ref="U3" pin="25"/>
+      <node ref="Cen2" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="Ren2" pin="1"/>
+    </net>
+    <net code="5" name="/motor_part/TACHO_2">
+      <node ref="U2" pin="8"/>
+      <node ref="U3" pin="22"/>
+      <node ref="Rdd2" pin="1"/>
+    </net>
+    <net code="6" name="/motor_part/BRAKE_2">
+      <node ref="U2" pin="14"/>
+      <node ref="U3" pin="27"/>
+    </net>
+    <net code="7" name="/motor_part/EN_1">
+      <node ref="U3" pin="12"/>
+      <node ref="Ren1" pin="2"/>
+    </net>
+    <net code="8" name="/motor_part/DIR_1">
+      <node ref="U3" pin="14"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="9" name="/motor_part/TACHO_1">
+      <node ref="U1" pin="8"/>
+      <node ref="U3" pin="20"/>
+      <node ref="Rdd1" pin="1"/>
+    </net>
+    <net code="10" name="/motor_part/BRAKE_1">
+      <node ref="U3" pin="13"/>
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="11" name="/encodeurs/Ch_B2">
+      <node ref="U3" pin="19"/>
+      <node ref="P4" pin="4"/>
+    </net>
+    <net code="12" name="GND">
+      <node ref="Coff1" pin="2"/>
+      <node ref="Cpul1" pin="2"/>
+      <node ref="Rpul1" pin="2"/>
+      <node ref="K1" pin="7"/>
+      <node ref="U1" pin="6"/>
+      <node ref="U1" pin="7"/>
+      <node ref="U1" pin="18"/>
+      <node ref="U1" pin="19"/>
+      <node ref="Rsense1" pin="2"/>
+      <node ref="P5" pin="3"/>
+      <node ref="P4" pin="3"/>
+      <node ref="Roff1" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="Cen1" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="J3" pin="2"/>
+      <node ref="D7" pin="1"/>
+      <node ref="D6" pin="2"/>
+      <node ref="U4" pin="2"/>
+      <node ref="U12" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="D10" pin="2"/>
+      <node ref="D11" pin="1"/>
+      <node ref="U9" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="U3" pin="16"/>
+      <node ref="U9" pin="8"/>
+      <node ref="JP1" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="R11" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="U3" pin="32"/>
+      <node ref="D8" pin="1"/>
+      <node ref="D9" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="U7" pin="1"/>
+      <node ref="Cpul2" pin="2"/>
+      <node ref="Roff2" pin="2"/>
+      <node ref="Coff2" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="Rsense2" pin="2"/>
+      <node ref="U10" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="Cen2" pin="2"/>
+      <node ref="K2" pin="7"/>
+      <node ref="U2" pin="6"/>
+      <node ref="U2" pin="7"/>
+      <node ref="U2" pin="18"/>
+      <node ref="U2" pin="19"/>
+      <node ref="U8" pin="1"/>
+      <node ref="Rpul2" pin="2"/>
+      <node ref="U11" pin="1"/>
+    </net>
+    <net code="13" name="/encodeurs/Ch_A2">
+      <node ref="U3" pin="18"/>
+      <node ref="P4" pin="2"/>
+    </net>
+    <net code="14" name="/encodeurs/Ch_B1">
+      <node ref="U3" pin="7"/>
+      <node ref="P5" pin="4"/>
+    </net>
+    <net code="15" name="/encodeurs/Ch_A1">
+      <node ref="U3" pin="6"/>
+      <node ref="P5" pin="2"/>
+    </net>
+    <net code="16" name="Net-(Rsense2-Pad1)">
+      <node ref="U2" pin="10"/>
+      <node ref="U2" pin="3"/>
+      <node ref="Rsense2" pin="1"/>
+    </net>
+    <net code="17" name="+5V">
+      <node ref="P5" pin="1"/>
+      <node ref="P4" pin="1"/>
+      <node ref="U9" pin="3"/>
+      <node ref="K2" pin="11"/>
+      <node ref="R9" pin="1"/>
+      <node ref="U5" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="K1" pin="11"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="18" name="Net-(Cp2-Pad2)">
+      <node ref="Rp2" pin="1"/>
+      <node ref="Cp2" pin="2"/>
+    </net>
+    <net code="19" name="/motor_part/VCP2">
+      <node ref="Cp2" pin="1"/>
+      <node ref="U2" pin="22"/>
+    </net>
+    <net code="20" name="/motor_part/VBOOT2">
+      <node ref="D4" pin="1"/>
+      <node ref="Cboot2" pin="1"/>
+      <node ref="U2" pin="15"/>
+    </net>
+    <net code="21" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1"/>
+      <node ref="D4" pin="2"/>
+      <node ref="Rp2" pin="2"/>
+    </net>
+    <net code="22" name="Net-(K2-Pad8)">
+      <node ref="K2" pin="8"/>
+      <node ref="U2" pin="23"/>
+    </net>
+    <net code="23" name="Net-(K2-Pad1)">
+      <node ref="U2" pin="5"/>
+      <node ref="K2" pin="1"/>
+      <node ref="K2" pin="2"/>
+    </net>
+    <net code="24" name="Net-(K2-Pad10)">
+      <node ref="U2" pin="24"/>
+      <node ref="K2" pin="10"/>
+    </net>
+    <net code="25" name="Net-(K2-Pad3)">
+      <node ref="K2" pin="4"/>
+      <node ref="K2" pin="3"/>
+      <node ref="U2" pin="21"/>
+    </net>
+    <net code="26" name="Net-(K2-Pad9)">
+      <node ref="U2" pin="1"/>
+      <node ref="K2" pin="9"/>
+    </net>
+    <net code="27" name="Net-(K2-Pad5)">
+      <node ref="K2" pin="5"/>
+      <node ref="K2" pin="6"/>
+      <node ref="U2" pin="16"/>
+    </net>
+    <net code="28" name="VDD">
+      <node ref="F2" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="D10" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="U2" pin="17"/>
+      <node ref="U2" pin="20"/>
+      <node ref="D3" pin="2"/>
+      <node ref="J3" pin="1"/>
+      <node ref="Cboot2" pin="2"/>
+      <node ref="R16" pin="2"/>
+    </net>
+    <net code="29" name="/motor_part/Vref2">
+      <node ref="C2" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="U2" pin="13"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="30" name="Net-(K1-Pad5)">
+      <node ref="K1" pin="5"/>
+      <node ref="K1" pin="6"/>
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="31" name="+3V3">
+      <node ref="U3" pin="17"/>
+      <node ref="R12" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="Rdd1" pin="2"/>
+      <node ref="U3" pin="5"/>
+      <node ref="U3" pin="1"/>
+      <node ref="JP1" pin="3"/>
+      <node ref="Rdd2" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="U6" pin="2"/>
+      <node ref="C9" pin="1"/>
+      <node ref="R13" pin="2"/>
+      <node ref="U9" pin="5"/>
+    </net>
+    <net code="32" name="/motor_part/RCOFF2">
+      <node ref="U2" pin="4"/>
+      <node ref="Roff2" pin="1"/>
+      <node ref="Coff2" pin="1"/>
+    </net>
+    <net code="33" name="/motor_part/RCPULSE2">
+      <node ref="Cpul2" pin="1"/>
+      <node ref="Rpul2" pin="1"/>
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="34" name="Net-(Rsense1-Pad1)">
+      <node ref="U1" pin="10"/>
+      <node ref="U1" pin="3"/>
+      <node ref="Rsense1" pin="1"/>
+    </net>
+    <net code="35" name="Net-(K1-Pad1)">
+      <node ref="U1" pin="5"/>
+      <node ref="K1" pin="2"/>
+      <node ref="K1" pin="1"/>
+    </net>
+    <net code="36" name="Net-(K1-Pad3)">
+      <node ref="K1" pin="3"/>
+      <node ref="U1" pin="21"/>
+      <node ref="K1" pin="4"/>
+    </net>
+    <net code="37" name="Net-(Cp1-Pad2)">
+      <node ref="Rp1" pin="1"/>
+      <node ref="Cp1" pin="2"/>
+    </net>
+    <net code="38" name="VCC">
+      <node ref="D6" pin="1"/>
+      <node ref="F1" pin="1"/>
+      <node ref="U1" pin="17"/>
+      <node ref="R7" pin="2"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="U1" pin="20"/>
+      <node ref="D1" pin="2"/>
+      <node ref="Cboot1" pin="2"/>
+      <node ref="U6" pin="3"/>
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="39" name="Net-(K1-Pad8)">
+      <node ref="U1" pin="23"/>
+      <node ref="K1" pin="8"/>
+    </net>
+    <net code="40" name="Net-(K1-Pad10)">
+      <node ref="K1" pin="10"/>
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="41" name="/motor_part/VCP1">
+      <node ref="U1" pin="22"/>
+      <node ref="Cp1" pin="1"/>
+    </net>
+    <net code="42" name="Net-(K1-Pad9)">
+      <node ref="K1" pin="9"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="43" name="/motor_part/Vref1">
+      <node ref="R1" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="U1" pin="13"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="44" name="/motor_part/VBOOT1">
+      <node ref="D2" pin="1"/>
+      <node ref="Cboot1" pin="1"/>
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="45" name="/motor_part/RCOFF1">
+      <node ref="Coff1" pin="1"/>
+      <node ref="Roff1" pin="1"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="46" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="D2" pin="2"/>
+      <node ref="Rp1" pin="2"/>
+    </net>
+    <net code="47" name="/motor_part/RCPULSE1">
+      <node ref="U1" pin="9"/>
+      <node ref="Cpul1" pin="1"/>
+      <node ref="Rpul1" pin="1"/>
+    </net>
+    <net code="48" name="Net-(R6-Pad1)">
+      <node ref="R6" pin="1"/>
+      <node ref="U3" pin="21"/>
+    </net>
+    <net code="49" name="/uC/I2C_SDA">
+      <node ref="P1" pin="1"/>
+      <node ref="U3" pin="30"/>
+    </net>
+    <net code="50" name="/uC/TX">
+      <node ref="U3" pin="8"/>
+      <node ref="U9" pin="1"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="51" name="/uC/RX">
+      <node ref="U3" pin="9"/>
+      <node ref="J1" pin="1"/>
+      <node ref="U9" pin="4"/>
+    </net>
+    <net code="52" name="Net-(R5-Pad1)">
+      <node ref="R5" pin="1"/>
+      <node ref="U3" pin="31"/>
+    </net>
+    <net code="53" name="Net-(JP1-Pad2)">
+      <node ref="R5" pin="2"/>
+      <node ref="JP1" pin="2"/>
+    </net>
+    <net code="54" name="Net-(P3-Pad1)">
+      <node ref="R15" pin="1"/>
+      <node ref="P3" pin="1"/>
+      <node ref="U9" pin="7"/>
+    </net>
+    <net code="55" name="Net-(P3-Pad2)">
+      <node ref="U9" pin="6"/>
+      <node ref="R15" pin="2"/>
+      <node ref="P3" pin="2"/>
+    </net>
+    <net code="56" name="Net-(U3-Pad2)">
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="57" name="Net-(U3-Pad3)">
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="58" name="Net-(P2-Pad1)">
+      <node ref="U3" pin="11"/>
+      <node ref="P2" pin="1"/>
+    </net>
+    <net code="59" name="Net-(P2-Pad2)">
+      <node ref="U3" pin="10"/>
+      <node ref="P2" pin="2"/>
+    </net>
+    <net code="60" name="/uC/I2C_SCL">
+      <node ref="U3" pin="29"/>
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="61" name="/uC/swdio">
+      <node ref="J2" pin="4"/>
+      <node ref="U3" pin="23"/>
+    </net>
+    <net code="62" name="/uC/swclk">
+      <node ref="U3" pin="24"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="63" name="/uC/nrst">
+      <node ref="J2" pin="2"/>
+      <node ref="U3" pin="4"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="64" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="65" name="Net-(F2-Pad2)">
+      <node ref="F2" pin="2"/>
+      <node ref="U12" pin="1"/>
+    </net>
+    <net code="66" name="Net-(D8-Pad2)">
+      <node ref="R10" pin="1"/>
+      <node ref="D8" pin="2"/>
+    </net>
+    <net code="67" name="Net-(D7-Pad2)">
+      <node ref="R7" pin="1"/>
+      <node ref="D7" pin="2"/>
+    </net>
+    <net code="68" name="Net-(D11-Pad2)">
+      <node ref="R16" pin="1"/>
+      <node ref="D11" pin="2"/>
+    </net>
+    <net code="69" name="Net-(F1-Pad2)">
+      <node ref="U4" pin="1"/>
+      <node ref="F1" pin="2"/>
+    </net>
+    <net code="70" name="Net-(D9-Pad2)">
+      <node ref="D9" pin="2"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="71" name="Net-(R11-Pad2)">
+      <node ref="U6" pin="1"/>
+      <node ref="R11" pin="2"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="72" name="Net-(R8-Pad1)">
+      <node ref="R9" pin="2"/>
+      <node ref="R8" pin="1"/>
+      <node ref="U5" pin="1"/>
+    </net>
+  </nets>
+</export>

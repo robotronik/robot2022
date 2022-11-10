@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "B plug")(type KiCad)(uri "$(KIPRJMOD)/lib/B plug.pretty")(options "")(descr ""))
+  (lib (name maxon)(type KiCad)(uri "$(KIPRJMOD)/lib/maxon.pretty")(options "")(descr ""))
+)
